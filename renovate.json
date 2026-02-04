@@ -2,16 +2,10 @@
   "extends": ["config:base"],
   "dependencyDashboard": true,
 
-  "maven": {
-    "enabled": true,
-    "updatePropertyVersions": true
-  },
-
   "packageRules": [
     {
-      "managers": ["maven"],
-      "matchDepNames": ["org.apache.commons:commons-lang3"],
-      "enabled": true
+      "matchManagers": ["maven"],
+      "updatePropertyVersions": true
     }
   ]
 }
