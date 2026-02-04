@@ -1,0 +1,17 @@
+
+A
+java:S2629%"$Invoke method(s) only conditionally.(ØÀ¬ï8Î¾øŒ›2
+X	java:S125-"<This block of commented-out lines of code should be removed.(ÅœÜ€8Æñ¯„2
+]	java:S125?"<This block of commented-out lines of code should be removed.(¯ïú‘ıÿÿÿÿ8éŞƒ2
+X	java:S125b"<This block of commented-out lines of code should be removed.(¸Íùş8á±„2
+]	java:S1259"<This block of commented-out lines of code should be removed.(­Ÿ¤´şÿÿÿÿ8€ËÙƒ2
+X	java:S125="<This block of commented-out lines of code should be removed.(ÚĞ™²8¶–×ş2
+l	java:S116!"PRename this field "TOPIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Í³ä8Ñà“š2
+{
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(»Ô– ıÿÿÿÿ8ÛË®„2
+~
+java:S3457%"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ØÀ¬ï8Î¾øŒ›2
+z
+java:S1128"XRemove this unused import 'org.springframework.kafka.support.serializer.JsonSerializer'.(šÙÚíøÿÿÿÿ8Â †2
+m
+java:S2095("KUse try-with-resources or close this "KafkaProducer" in a "finally" clause.(»Ô– ıÿÿÿÿ8ÛË®„2

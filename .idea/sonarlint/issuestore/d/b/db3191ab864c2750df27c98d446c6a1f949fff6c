@@ -1,0 +1,15 @@
+
+h
+java:S1104"RMake retVal a static final constant or non-public and provide accessors if needed.(Ä…æ®
+3
+java:S2386"Make this member "protected".(Ä…æ®
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ú™ÉØþÿÿÿÿ
+B
+java:S1444",Make this "public static retVal" field final(Ä…æ®
+Q
+java:S3740"/Provide the parametrized type for this generic.(â¤ãâþÿÿÿÿ8…Ó¡†œ2
+œ
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±þýÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¤ãâþÿÿÿÿ

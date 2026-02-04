@@ -1,0 +1,16 @@
+{
+"type": "record",
+"namespace": "com.fakecontact",
+"name": "LoxonRequest",
+"doc": "Schema for LoxonRequest-v1",
+"version": "1",
+"fields": [
+{ "name": "CUID", "type": [ "null", { "type": "string", "avro.java.string": "String" } ],"doc": "Store Cuid" },
+{ "name": "ContractNumber", "type": [ "null", { "type": "string", "avro.java.string": "String" } ],"doc": "Store ContractCode" },
+{ "name": "TaskNameAlias", "type": [ "null", { "type": "string", "avro.java.string": "String" } ], "doc": "Store Task Name Alias" },
+{ "name": "TaskNameResult", "type": [ "null", { "type": "string", "avro.java.string": "String" } ], "doc": "Task Name Result" },
+{ "name": "ExpirationDate", "type": [ "null", { "type": "string", "avro.java.string": "String" } ], "doc": "EpocTime" },
+{ "name": "Comment", "type": [ "null", { "type": "string", "avro.java.string": "String" } ], "doc": "Comment" }
+ ]
+ }
+
