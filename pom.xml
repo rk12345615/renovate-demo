@@ -22,6 +22,12 @@
         <confluent.version>5.4.3</confluent.version>
     </properties>
     <dependencies>
+             <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.5</version> <!-- old version for testing -->
+</dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
