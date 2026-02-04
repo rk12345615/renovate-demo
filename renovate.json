@@ -6,6 +6,10 @@
     {
       "matchManagers": ["maven"],
       "updatePropertyVersions": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
