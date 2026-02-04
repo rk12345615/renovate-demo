@@ -1,12 +1,7 @@
 {
   "extends": ["config:recommended"],
   "dependencyDashboard": true,
-
   "packageRules": [
-    {
-      "matchManagers": ["maven"],
-      "updatePropertyVersions": true
-    },
     {
       "matchUpdateTypes": ["major"],
       "enabled": false
