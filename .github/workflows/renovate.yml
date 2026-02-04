@@ -20,5 +20,8 @@ jobs:
         uses: renovatebot/github-action@v40.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          autodiscover: true
-          logLevel: debug
+        env:
+          RENOVATE_PLATFORM: github
+          RENOVATE_AUTODISCOVER: "true"
+          RENOVATE_REPOSITORIES: ${{ github.repository }}
+          LOG_LEVEL: debug
