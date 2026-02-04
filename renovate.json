@@ -1,4 +1,10 @@
 {
   "extends": ["config:base"],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "managers": ["maven"],
+      "enabled": true
+    }
+  ]
 }
