@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 2 * * *"
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   renovate:
     runs-on: ubuntu-latest
@@ -16,5 +20,5 @@ jobs:
         uses: renovatebot/github-action@v40.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
+          autodiscover: true
           logLevel: debug
